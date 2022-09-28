@@ -1,0 +1,9 @@
+#main-header{
+    background-color: var(--color1);
+    color :var(--color-blanco);
+}
+#main-header h1,
+#main-header p
+{
+    margin-bottom: 0;
+}

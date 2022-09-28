@@ -1,0 +1,30 @@
+
+    <div id="containerBanner">
+        <div class="image"></div>
+            <div id="bannerTxt">
+                <h1 class="uppercase">
+                  <strong>Juegos</strong>
+                </h1>  
+                  <p class="lead">Tabla de datos de juegos</p>
+            </div>
+    </div>
+    <div id="tablaJuegos">
+      <table class="table">
+        <thead class="table-light">
+          <tr>
+            <th scope="col">Dominios</th>
+            <th scope="col">País</th>
+            <th scope="col">Pagina web</th>
+            <th scope="col">Nombre</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr *ngFor="let item of listaJuegos">
+            <td>{{item.domains}}</td>
+            <td>{{item.country}}</td>
+            <td>{{item.web_pages}}</td>
+            <td>{{item.name}}</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>  

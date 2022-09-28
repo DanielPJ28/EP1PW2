@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>USUARIOS</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum, dolores. Vero laboriosam minus nobis ad molestias excepturi illum asperiores reiciendis!</p>
+
+    <div class="row row-cols-8 row-cols-md-4 g-4" id="contenido">
+
+        <div class="col" *ngFor="let item of listaUsuarios">
+          <div class="card">
+            <!--<img src="https://api.imgflip.com/get_memes/{{item.url}}" class="card-img-top" alt="...">-->
+            <div class="card-body">
+              <h5 class="card-title">{{item.name}}</h5>
+              <p class="card-text">{{item.phone}}</p>
+              <small>{{item.city}} {{item.state}}, {{item.country}}</small>
+            </div>
+          </div>
+        </div>
+
+    </div>
+    
+</body>
+</html>

@@ -1,0 +1,61 @@
+@import url(//db.onlinewebfonts.com/c/30a0adada561ec8493b9dfce36a805f8?family=fl-icons);
+#containerBanner{
+    color: black;
+    height: 622px;
+    position: relative;
+}
+.image{
+    background-image: url("src\assets\juegosComponent\Header_1.jpg");
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    background-color: #bb3737;  
+}
+#tablaJuegos{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+#bannerTxt{
+    position: absolute;
+    top: 50%;
+    left:  50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+strong{
+    font-weight: bolder;
+}
+h1{
+    color: #fff;
+    font-size: 3.5em;
+    font-weight: 700;
+    letter-spacing: .05em;
+    line-height: 1;
+    text-transform: uppercase;
+}
+p{
+    font-size: 1.3em;
+    color: #f1f1f1;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+table.table{
+    border-collapse: separate;
+    border-spacing: 20px;
+}
+tr td:before {
+    content: "" !important;
+    font-family: "fl-icons";
+    left: 0;
+    position: absolute;
+    font-size: 16px;
+    color: #7a9c59;
+  }
+td{
+    position: relative;
+    padding: 7px 0 7px 25px;
+}
